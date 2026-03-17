@@ -10,6 +10,10 @@ To explore the MongoDB, we recommend mongodb compass
 to use the mongodb docker image, you will need docker. For windows, we recommend using docker desktop:
 https://www.docker.com/products/docker-desktop/
 
+### MCP Inspector
+A useful Tool to test MCP functionality
+https://modelcontextprotocol.io/docs/tools/inspector
+
 ## Get the MongoDB via Docker
 
 1. generate a personal access token (PAT classic) in github. It only needs the **read:packages** permission
