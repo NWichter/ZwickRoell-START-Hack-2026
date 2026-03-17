@@ -33,3 +33,8 @@ this is the propably biggest source for UUIDs. The structure of a valucolumn ent
 - The UUIDs in `childId` is a reference to the **type** of value stored there. In the repository you will find files containing translations for these UUIDs, as well as the possible unittables.
 	- for Results (valuecolumn has only a single value), take a look at the file `TestResultTypes`
 	- for Measurements, take a look at the `channelParameterMap`
+
+
+## Reading and inspiration
+
+- https://t3n.de/news/claude-wird-zum-daten-tool-anthropic-bringt-klickbare-charts-in-den-chat-auch-fuer-free-user-1733872/
