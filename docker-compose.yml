@@ -4,7 +4,7 @@ services:
     container_name: txp-mongo
     command: mongod --auth
     ports:
-      - "27017:27017"
+      - "27016:27017"
     volumes:
       - txp-mongo-data:/data/db
     environment:
