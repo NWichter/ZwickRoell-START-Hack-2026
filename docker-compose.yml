@@ -1,0 +1,16 @@
+services:
+  mongo:
+    image: ghcr.io/svenstamm/txp-mongo:latest
+    container_name: txp-mongo
+    command: mongod --auth
+    ports:
+      - "27017:27017"
+    volumes:
+      - txp-mongo-data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
+    restart: unless-stopped
+
+volumes:
+  txp-mongo-data:
